@@ -1,0 +1,33 @@
+.sidebar {
+    background-color: var(--bg-sidebar); /* استخدمنا الروت هنا */
+    transition: all 0.3s ease;
+    border-right: 1px solid rgba(255, 255, 255, 0.05); /* خط بسيط جداً للجمال */
+}
+
+.nav-link {
+    color: var(--text-muted) !important; 
+    padding: 12px 20px;
+    margin: 8px 15px; /* زدنا المسافة قليلاً لراحة العين */
+    border-radius: var(--radius); /* استخدمنا انحناء الروت */
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center; /* لضمان توسط الأيقونة مع النص */
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--white) !important;
+    transform: translateX(5px); /* حركة خفيفة جهة اليمين عند الماوس */
+}
+
+.nav-link.active {
+    background-color: var(--primary) !important; 
+    color: var(--white) !important;
+    box-shadow: var(--shadow-md);
+    font-weight: 500;
+}
+
+.content-area {
+    background-color: var(--bg-light);
+    min-height: 100vh;
+}

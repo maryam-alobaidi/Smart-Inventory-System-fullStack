@@ -1,0 +1,10 @@
+export interface Product{
+   ProductID: number;     
+  ProductName: string;
+  Quantity: number;
+  Price: number;
+  MinStockLevel: number;
+  MaxCapacity: number;
+  ImagePath?: string;
+  CategoryID: number; 
+}

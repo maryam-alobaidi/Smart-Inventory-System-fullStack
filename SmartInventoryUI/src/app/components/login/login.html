@@ -1,0 +1,38 @@
+<div class="login-page"> 
+    <div class="login-card shadow-lg">
+    
+    <div class="text-center mb-4">
+      <div class="logo-wrapper">
+         <i class="fa-solid fa-boxes-stacked fa-3x text-primary"></i>
+      </div>
+      <h3 class="fw-bold mt-2">Inventory System</h3>
+      <p class="text-muted">Welcome back! Please login.</p>
+    </div>
+    <div class="justify-content-center">
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="user" placeholder="Username" [(ngModel)]="username">
+      <label for="user"><i class="fa fa-user me-2"></i>Username</label>
+    </div>
+
+    <div class="form-floating mb-4">
+      <input type="password" class="form-control" id="pass" placeholder="Password" [(ngModel)]="password">
+      <label for="pass"><i class="fa fa-lock me-2"></i>Password</label>
+    </div>
+
+    <button (click)="login()" class="btn btn-primary btn-lg w-100 shadow-sm">
+      Login
+    </button>
+      </div>
+
+    @if (errorMessage()) {
+      <div class="errorMessage small p-3 text-danger">
+        <i class="fas fa-exclamation-circle"></i> 
+        {{ errorMessage() }}
+      </div>}
+
+    </div>
+    </div>
+
+
+

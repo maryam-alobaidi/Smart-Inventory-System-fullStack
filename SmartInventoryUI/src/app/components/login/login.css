@@ -1,0 +1,88 @@
+
+.fa-circle-xmark {
+    font-size: 1.2rem;
+}
+
+.login-page {
+   
+background-image: url('../../../assets/back1.png');
+    background-size: cover;
+    
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    /* تغيير الخلفية للون داكن شفاف */
+    background-color: rgba(30, 34, 45, 0.85); 
+    
+    /* تأثير الضبابية خلف الكارد */
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    
+    /* حواف مستديرة وإطار خفيف جداً لإبراز الكارد */
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    /* ظل ناعم ليعطي عمق */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    
+    /* تغيير لون النصوص داخل الكارد للأبيض لتكون واضحة */
+    color: #ffffff;
+}
+
+.login-card h3, .login-card p {
+    color: #ffffff !important;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: #00d2ff !important;
+    box-shadow: 0 0 8px rgba(0, 210, 255, 0.5);
+}
+
+.form-floating label {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+}
+
+.errorMessage {
+    background-color: #fff5f5;
+    border-left: 4px solid #ff4d4f;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}

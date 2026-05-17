@@ -1,0 +1,22 @@
+.avatar-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.table thead th {
+  border-top: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.card {
+  margin-top: -10px; 
+}
+
+.bg-primary-subtle { background-color: #e7f1ff !important; }
+.bg-info-subtle { background-color: #e0f7fa !important; }

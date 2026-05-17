@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    margin: 0;
+}
+
+
+
+:root {
+  /* الألوان الأساسية - Professional Blue Palette */
+  --primary: #0d6efd;       /* اللون الأزرق الأساسي للبراند */
+  --primary-dark: #0a58ca;  /* للـ Hover على الأزرار */
+  --secondary: #6c757d;     /* للرمادي الجانبي */
+
+  /* ألوان الخلفيات */
+  --bg-light: #f8f9fa;      /* خلفية الصفحات (رمادي فاتح جداً مريح للعين) */
+  --bg-sidebar: #212529;    /* خلفية السايد بار (أسود ملكي) */
+  --white: #ffffff;
+
+  /* ألوان النصوص */
+  --text-dark: #212529;     /* للعناوين */
+  --text-muted: #6c757d;    /* للنصوص الثانوية */
+  --text-light: #f8f9fa;    /* للنصوص فوق الخلفيات الغامقة */
+
+  /* ألوان التنبيهات (مهمة جداً للمخازن) */
+  --success: #198754;       /* للكميات المتوفرة */
+  --warning: #ffc107;       /* للكميات التي أوشكت على النفاذ */
+  --danger: #dc3545;        /* للكميات المنتهية أو الأخطاء */
+
+  /* تنسيقات عامة */
+  --shadow-sm: 0 .125rem .25rem rgba(0,0,0,.075);
+  --shadow-md: 0 .5rem 1rem rgba(0,0,0,.15);
+  --radius: 10px;           /* لتوحيد انحناء الزوايا في كل النظام */
+}

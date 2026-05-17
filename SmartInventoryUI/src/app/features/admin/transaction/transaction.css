@@ -1,0 +1,31 @@
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.bg-success-subtle {
+    background-color: #d1fae5 !important;
+    color: #065f46 !important;
+}
+
+.bg-info-subtle {
+    background-color: #dbeafe !important;
+    color: #1e40af !important;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8fafc;
+    transition: background-color 0.3s ease;
+}
+
+
+.table thead th {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #f1f5f9;
+}
