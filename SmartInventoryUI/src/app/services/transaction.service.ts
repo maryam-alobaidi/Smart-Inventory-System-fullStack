@@ -11,7 +11,7 @@ export class TransactionService {
 
   private http=inject(HttpClient);
 
-  private apiUrl = 'https://localhost:7134/api/Transactions';
+  private apiUrl = 'http://localhost:8080/api/Transactions';
 
 
   getAllTransactions():Observable<Transaction[]>{

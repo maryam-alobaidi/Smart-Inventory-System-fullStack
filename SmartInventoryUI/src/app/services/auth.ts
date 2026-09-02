@@ -9,7 +9,7 @@ export class AuthService {
   private http = inject(HttpClient);
   private router = inject(Router);
   
-  private apiUrl = 'https://localhost:7134/api/Users'; 
+  private apiUrl = 'http://localhost:8080/api/Users'; 
 
   isAdmin = signal<boolean>(localStorage.getItem('Role') === 'Admin');
 

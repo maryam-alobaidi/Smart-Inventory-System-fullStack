@@ -11,7 +11,7 @@ export class ProductService {
   private http = inject(HttpClient);
 
   
-  private apiUrl = 'https://localhost:7134/api/Products';
+  private apiUrl = 'http://localhost:8080/api/Products';
 
   getAllProducts():Observable<Product[]>{
     return this.http.get<Product[]>(this.apiUrl);

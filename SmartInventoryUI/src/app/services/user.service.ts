@@ -10,7 +10,7 @@ export class UserService {
 
   private http=inject(HttpClient);
 
-  private  apiUrl='https://localhost:7134/api/Users';
+  private  apiUrl='http://localhost:8080/api/Users';
 
   getAllUsers(): Observable<User[]> {
     return this.http.get<User[]>(this.apiUrl);

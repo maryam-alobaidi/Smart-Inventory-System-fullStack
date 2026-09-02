@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class CategoryService {
   private http=inject(HttpClient);
-  private apiUrl=`https://localhost:7134/api/Categories`;
+  private apiUrl=`http://localhost:8080/api/Categories`;
 
   getAllCategories(){
     return this.http.get<Category[]>(this.apiUrl);
