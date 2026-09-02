@@ -1,5 +1,5 @@
 # مرحلة 1: بناء تطبيق Angular
-FROMM node:20 AS build
+FROM node:20 AS build
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install
